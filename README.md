@@ -24,7 +24,15 @@ Note: Until `wasm-pack` [RFC #6](https://github.com/rustwasm/rfcs/blob/master/te
 
 ### 4) Test Run
 
-Simply visit `https://laiboonh.github.io`
+Install [see](https://github.com/wyhaya/see.git)
+```
+cargo install see
+see start -b 8080
+```
+Locally visit `http://localhost:8080/index.html`
+
+
+In "production" simply visit `https://laiboonh.github.io`
 
 ### 5) Deploy
 
