@@ -425,7 +425,7 @@
     }
 
     async function main() {
-       await init('/pkg/laiboonh_minimal_bg.wasm');
+       await init('/pkg/laiboonh_bg.wasm');
        run_app();
     }
     main();
